@@ -1,6 +1,5 @@
-```markdown
 # Article summary I
-
+09-07-2020
 ## Summary
 In this paper, Gelman et al. went through seven interesting and representative examples of tables from the March 2000 issue of the Journal of the American Statistical Association to study the question: Could graphs do better? The conclusion from most of these studies was that main motivation for displaying numerical information in statistics articles is to make comparisons, and for this purpose, the well-designed graphs are superior to tables. The authors identified some key ideas to construct the graphs and the steps for most data displays in statistical research were: (1) identify the key comparisons of interest; (2) display these on small individual plots with comparison lines or axes where appropriate; and (3) establish enough control over the graphical display so that small legible plots can be juxtaposed as necessary. Besides the general recommendations about the kinds of plots that worked well for presenting the results of statistical research, they supplied several specific suggestions about the placement of graphs, the use of labels and baselines, and other details that are crucial in constructing small yet readable graphical displays. 
 
@@ -12,4 +11,3 @@ The interesting part is that nice graphs are possible, especially when we think 
 2.	Could graphs replace tables in statistical analysis?
 
 [1]Andrew Gelman, Cristian Pasarica & Rahul Dodhia (2002) Let's Practice WhatWe Preach, The American Statistician, 56:2, 121-130, DOI: 10.1198/000313002317572790
-```
