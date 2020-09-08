@@ -1,3 +1,4 @@
+```markdown
 # Article summary I
 
 ## Summary
@@ -11,3 +12,4 @@ The interesting part is that nice graphs are possible, especially when we think 
 2.	Could graphs replace tables in statistical analysis?
 
 [1]Andrew Gelman, Cristian Pasarica & Rahul Dodhia (2002) Let's Practice WhatWe Preach, The American Statistician, 56:2, 121-130, DOI: 10.1198/000313002317572790
+```
