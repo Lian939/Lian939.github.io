@@ -10,5 +10,5 @@ The interesting part is that nice graphs are possible, especially when we think 
 1.	How to construct an accurate, concise and clear graph, and where to find relevant reference materials?
 2.	Could graphs replace tables in statistical analysis?
 
-[1]Andrew Gelman, Cristian Pasarica & Rahul Dodhia (2002) Let's Practice WhatWe Preach, The American Statistician, 56:2, 121-130, DOI: 10.1198/000313002317572790
+[1]Andrew Gelman, Cristian Pasarica & Rahul Dodhia (2002) Let's Practice What We Preach, The American Statistician, 56:2, 121-130, DOI: 10.1198/000313002317572790
 
