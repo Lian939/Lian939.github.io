@@ -11,7 +11,7 @@ In my view, capturing the time sequentiality of clinical visits, diagnoses, and 
 
 ### Questions
 1. What does convolution mean for non-imaging data?
-2. How does the sequential data problem impact the model, such as different visit interval, the number of visits for each person are different and missing visits?
+2. How sequential data issues affect the model, such as different visit interval, the number of visits for each person are different and missing visits?
 3. How to include the interaction information in the model?
 
 [1] Wang HH, Wang YH, Liang CW, Li YC. Assessment of deep learning using nonimaging information and sequential medical records to develop a prediction model for nonmelanoma skin cancer. Jama Dermatology. 2019 Nov 1;155(11):1277-83.
