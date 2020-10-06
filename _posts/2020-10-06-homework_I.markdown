@@ -27,7 +27,7 @@ a scale problem. So we need to find out what causes this problem. Then,
 we look at the association between year and mortality rate by different
 factors.
 
-![](homework_1_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![image](/assets/images/unnamed-chunk-4-1.png)
 
 The left graph is the association between year and mortality by age
 group and the right one is the association between year and mortality by
@@ -36,13 +36,13 @@ the main cause of the scale problem we mentioned earlier. Therefore we
 should plot the mortality of age group separately. Also the error bars
 are overlapped, we should use position\_dodge to move them horizontally.
 
-![](homework_1_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![image](/assets/images/unnamed-chunk-5-1.png)
 
 Now, the graph above shows the information about the mortality rates and
 intervals by year, age group and income group. Also, we could add the p
 value or asterisk to the graph.
 
-![](homework_1_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![image](/assets/images/unnamed-chunk-6-1.png)
 
 If we want to know the specific mortality rates and 95% confidence
 interval, we could add these numbers to the plot. I don’t think it’s
