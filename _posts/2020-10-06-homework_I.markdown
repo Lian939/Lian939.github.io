@@ -20,7 +20,7 @@ error bar or lines for the mortality intervals. Age group and country
 income group could be two factors. First, we could summarize the data
 and organize the variables nicely. Second, we should visualize the data.
 
-![alt text here](/homework_1_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](homework_1_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 After looking at the relation between year and mortality rate, there is
 a scale problem. So we need to find out what causes this problem. Then,
