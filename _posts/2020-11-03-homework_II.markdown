@@ -3,20 +3,10 @@ layout: post
 title: "homework_2 (Sensitivity, Specificity and Precision)"
 subtitle: "Predicting nonmelanoma skin cancer"
 author: 'Lianlian Du'
-bibliography: assets/images/bibliography.bib
+bibliography: assets/references/bibliography.bib
 fontsize: 12pt
 link-citations: yes
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            displayMath: [['$$','$$']],
-            inlineMath: [['$','$']],
-        },
-    });
-</script>
 
 Let patient be positive for Nonmelanoma Skin Cancer, and healthy be negative for Nonmelanoma Skin Cancer. To evaluate the performance of a test or model, various measures, such as sensitivity,  specificity, precision, recall,and area under the receiver operating characteristic curve (AUROC), are used. Classify patient or healthy produces four outcomes: 
 True positive(TP) = the number of cases correctly identified as patient
