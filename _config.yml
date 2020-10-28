@@ -29,7 +29,7 @@ github_username:  Lian939
 
 # Build settings
 theme: minima
-remote_theme: aterenin/minima-reboot
+remote_theme: math-minima
 plugins:
   - jekyll-feed
 
