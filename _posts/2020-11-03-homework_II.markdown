@@ -19,12 +19,8 @@ The specificity of a test is its ability to predict the healthy cases correctly.
 Positive predictive value (PPV, also called precision) is the probability that subjects with a positive prediction truly have the disease. Mathematically, this can be stated as: $$Precision = \frac{TP}{TP+FP}$$ Also, if the prevalence is known, this can be state as: $$Sensitivity * Prevalence / [(Sensitivity * Prevalence) + ((1- Specificity) * (1-Prevalence))]$$
 
 Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is 
-{% raw %}
-$$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$ 
-{% endraw %}
+
 $$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))]$$
-\\[\LaTeX code\\] (also for display)
-\\(\LaTeX code\\) (for inline)
 
 Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
 
