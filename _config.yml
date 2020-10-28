@@ -29,14 +29,13 @@ github_username:  Lian939
 
 # Build settings
 theme: minima
+remote_theme: aterenin/minima-reboot
 plugins:
   - jekyll-feed
 
 markdown: kramdown
 kramdown:
     math_engine: katex
-katex:
-  path_to_js: "./katex.min.js"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
