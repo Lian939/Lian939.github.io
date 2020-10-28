@@ -20,7 +20,7 @@ title                    : "BMI881 blog"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Lianlian Du"
-description              : "ritical evaluation of the scholarly literature is a crucial skill for researchers. BMI881 blog is a blog for the written article summaries and homework assignments of BMI881 literature review."
+description              : "Critical evaluation of the scholarly literature is a crucial skill for researchers. BMI881 blog is a blog for the written article summaries and homework assignments of BMI881 literature review."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Lianlian Du"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Biomedical Data Science"
+  bio              : "Biomedical Data Science Ph.D. student at UW-Madison"
   location         : "Madison, WI"
   email            : ldu39@wisc.edu; lianlianduby@gmail.com
   links:
