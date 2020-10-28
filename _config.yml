@@ -35,6 +35,8 @@ plugins:
 markdown: kramdown
 kramdown:
     math_engine: katex
+katex:
+  path_to_js: "./katex.min.js"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
