@@ -40,13 +40,12 @@ Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,00
 
 ![image](/assets/images/plot.png)
 
-<br/>
 From the plot, we could see the sensitivity and specificity should be greater than 0.999 ($\approx 1$), if we want to achieve positive predictive value = 50%. 
 <br/>
 
-Table 2 of Wang et al. [@wang2019assessment] showed the performances of convolutional neural network (CNN) with different input features. The CNN prediction model with both ICD-9-CM and drug prescriptions (model 3) as input features achieved an AUROC of 0.894 (0.007), sensitivity of 83.1%, specificity of 82.3% and precision of 0.571. It means the chance that a person with a positive prediction truly has the disease is 57.1%. PPV is influenced by the prevalence of disease in the population that is being tested. From the formula above, if the both the sensitivity and specificity are around 0.8, the precision is also very low when the prevalence is very low. Therefore, in this model, the prevalence is high. I'm worried about the generalizability of this model.  
+Table 2 of Wang et al. [1] showed the performances of convolutional neural network (CNN) with different input features. The CNN prediction model with both ICD-9-CM and drug prescriptions (model 3) as input features achieved an AUROC of 0.894 (0.007), sensitivity of 83.1%, specificity of 82.3% and precision of 0.571. It means the chance that a person with a positive prediction truly has the disease is 57.1%. PPV is influenced by the prevalence of disease in the population that is being tested. From the formula above, if the both the sensitivity and specificity are around 0.8, the precision is also very low when the prevalence is very low. Therefore, in this model, the prevalence is high. I'm worried about the generalizability of this model.  
 
 
 ## References
 
-
+[1] Wang, Hsiao-Han, Yu-Hsiang Wang, Chia-Wei Liang, and Yu-Chuan Li. 2019. “Assessment of Deep Learning Using Nonimaging Information and Sequential Medical Records to Develop a Prediction Model for Nonmelanoma Skin Cancer.” Jama Dermatology 155 (11): 1277–83.
