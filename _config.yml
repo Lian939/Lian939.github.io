@@ -31,11 +31,7 @@ github_username:  Lian939
 theme: minima
 plugins:
   - jekyll-feed
-katex:
-  path_to_js: "katex.min.js"
-markdown: kramdown
-kramdown:
-    math_engine: katex
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
