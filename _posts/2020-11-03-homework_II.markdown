@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "homework_2 (Sensitivity, Specificity and Precision)"
 subtitle: "Predicting nonmelanoma skin cancer"
 author: 'Lianlian Du'
