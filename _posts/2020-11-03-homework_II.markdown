@@ -2,6 +2,10 @@
 title: "homework_2 (Sensitivity, Specificity and Precision)"
 subtitle: "Predicting nonmelanoma skin cancer"
 author: 'Lianlian Du'
+date: 2020-11-03
+bibliography: assets/references/bibliography.bib
+fontsize: 12pt
+link-citations: yes
 ---
 
 Let patient be positive for Nonmelanoma Skin Cancer, and healthy be negative for Nonmelanoma Skin Cancer. To evaluate the performance of a test or model, various measures, such as sensitivity,  specificity, precision, recall,and area under the receiver operating characteristic curve (AUROC), are used. Classify patient or healthy produces four outcomes: 
@@ -43,6 +47,6 @@ From the plot, we could see the sensitivity and specificity should be greater th
 Table 2 of Wang et al. [@wang2019assessment] showed the performances of convolutional neural network (CNN) with different input features. The CNN prediction model with both ICD-9-CM and drug prescriptions (model 3) as input features achieved an AUROC of 0.894 (0.007), sensitivity of 83.1%, specificity of 82.3% and precision of 0.571. It means the chance that a person with a positive prediction truly has the disease is 57.1%. PPV is influenced by the prevalence of disease in the population that is being tested. From the formula above, if the both the sensitivity and specificity are around 0.8, the precision is also very low when the prevalence is very low. Therefore, in this model, the prevalence is high. I'm worried about the generalizability of this model.  
 
 
-##References
+## References
 
 
