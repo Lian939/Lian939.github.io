@@ -22,7 +22,7 @@ Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalenc
 {% raw %}
 $$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$ 
 {% endraw %}
-$$\LaTeX 0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$
+$$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))]$$
 \\[\LaTeX code\\] (also for display)
 \\(\LaTeX code\\) (for inline)
 
