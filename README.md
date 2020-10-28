@@ -1,7 +1,64 @@
-## Welcome to BMI881 blog
+# [Minimal Mistakes Template](https://github.com/j3soon/minimal-mistakes-template/)
 
-This is a blog for the written article summaries and homework assignments of BMI881 literature review. The aim of BMI881 to help Ph.D. students in Biomedical Data Science to develop this valuable skill by focused reading and discussion of a variety of journal articles of present or historical importance the biomedical sciences literature, including biostatistics, biomedical informatics, and relevant topics in statistics and computer science. The plots will include short written summaries and two written homework assignments related to the articles under discussion.
+A minimum Jekyll blog template with some customization based on the [Minimal Mistakes Theme](https://mmistakes.github.io/minimal-mistakes/).
 
-You can check the blog at the [website](https://lian939.github.io/) 
+- [Preview](https://j3soon.github.io/minimal-mistakes-template/styling-syntax-test/)
+- [Modification History](https://github.com/j3soon/minimal-mistakes-template/commits/master)
 
+For a full tutorial on how this template is created and how to further customize your site, please refer to [this blog post](https://intuitive-theory.com/setting-up-a-free-multi-purpose-website-using-jekyll-and-gitHub-pages/) and [the documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
+## Run the template locally
+
+Follow the [installation guide of Jekyll](https://jekyllrb.com/docs/installation/).
+
+### Linux & MacOS
+
+(Tested on Ubuntu 18.04 LTS)
+
+Run the following command to allow local preview:
+
+```sh
+scripts/set_env_local.sh
+```
+
+Remember to revert the local preview settings before committing:
+
+```sh
+scripts/set_env_ghpages.sh
+```
+
+Full local preview commands:
+
+```
+git clone https://github.com/j3soon/minimal-mistakes-template.git
+cd minimal-mistakes-template
+scripts/preview.sh
+# If the local preview is correct, press Ctrl+C once.
+# Stage, Commit, and Push the modifications to GitHub to update GitHub Pages
+```
+
+### Windows
+
+(Tested on Windows 10)
+
+Run the following command to allow local preview:
+
+```sh
+scripts\set_env_local.bat
+```
+
+Remember to revert the local preview settings before committing:
+
+```sh
+scripts\set_env_ghpages.bat
+```
+
+Full local preview commands:
+
+```
+git clone https://github.com/j3soon/minimal-mistakes-template.git
+cd minimal-mistakes-template
+scripts\preview.bat
+# If the local preview is correct, press Ctrl+C multiple times.
+# Stage, Commit, and Push the modifications to GitHub to update GitHub Pages
+```
