@@ -2,6 +2,7 @@
 title: "homework_2 (Sensitivity, Specificity and Precision)"
 subtitle: "Predicting nonmelanoma skin cancer"
 author: 'Lianlian Du'
+post_date: 2020-11-03
 bibliography: assets/references/bibliography.bib
 fontsize: 12pt
 link-citations: yes
@@ -13,14 +14,23 @@ False positive(FP) = the number of cases incorrectly identified as patient
 True negative (TN) = the number of cases correctly identified as healthy
 False negative (FN) = the number of cases incorrectly identified as healthy
 
-The sensitivity of a predicated model is its ability to predict the patient cases correctly. To estimate it, we should calculate the proportion of true positive in patient cases. Mathematically, this can be stated as: $$Sensitivity = \frac{TP}{TP+FN}$$
-The specificity of a test is its ability to predict the healthy cases correctly. To estimate it, we should calculate the proportion of true negative in healthy cases. Mathematically, this can be stated as: $$Specificity = \frac{TN}{TN+FP}$$
-Positive predictive value (PPV, also called precision) is the probability that subjects with a positive prediction truly have the disease. Mathematically, this can be stated as: $$Precision = \frac{TP}{TP+FP}$$ Also, if the prevalence is known, this can be state as: $$Sensitivity * Prevalence / [(Sensitivity * Prevalence) + ((1- Specificity) * (1-Prevalence))]$$
+The sensitivity of a predicated model is its ability to predict the patient cases correctly. To estimate it, we should calculate the proportion of true positive in patient cases. Mathematically, this can be stated as: 
+$$Sensitivity = \frac{TP}{TP+FN}$$
+The specificity of a test is its ability to predict the healthy cases correctly. To estimate it, we should calculate the proportion of true negative in healthy cases. Mathematically, this can be stated as: 
+$$Specificity = \frac{TN}{TN+FP}$$
+Positive predictive value (PPV, also called precision) is the probability that subjects with a positive prediction truly have the disease. Mathematically, this can be stated as: 
+$$Precision = \frac{TP}{TP+FP}$$ 
+Also, if the prevalence is known, this can be state as: 
+$$Sensitivity * Prevalence / [(Sensitivity * Prevalence) + ((1- Specificity) * (1-Prevalence))]$$
 
-Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is $$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$ Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
+Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is 
+$$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$ 
+Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
 
-
-![image](/assets/images/plot.png)
+<center>
+![image](/assets/images/plot.png){
+width=50% }
+<center>
 <br/>
 
 From the plot, we could see the sensitivity and specificity should be greater than 0.999 ($\approx 1$), if we want to achieve positive predictive value = 50%. 
