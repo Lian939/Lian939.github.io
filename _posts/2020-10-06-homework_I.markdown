@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "homework_1 (Turning Table into Graph)"
 subtitle: "Turning Table into Graph"
 author: 'Lianlian Du'
