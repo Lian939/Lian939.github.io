@@ -7,20 +7,14 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e3; -webkit-text-stroke: 0px #0000e3}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000dc; -webkit-text-stroke: 0px #0000dc}
   </style>
 </head>
 <body>
-<p class="p1">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous"&gt;</p>
-<p class="p1">&lt;script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p3"><span class="s1">{%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths -%} {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%} <a href="file:///Users/lianliandu/Documents/GitHub/Lian939.github.io/_includes/%7B%7B"><span class="s2">{{ site.title | escape }}</span></a> {%- if titles_size &gt; 0 -%}</span></p>
-<p class="p3"><span class="s1">{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} {%- if my_page.title -%} <a href="file:///Users/lianliandu/Documents/GitHub/Lian939.github.io/_includes/%7B%7B%20my_page.url%20%7C%20relative_url%20%7D%7D"><span class="s2">{{ my_page.title | escape }}</span></a> {%- endif -%} {%- endfor -%}<span class="Apple-converted-space"> </span></span></p>
-<p class="p3"><span class="s1">{%- endif -%}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths -%} {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%} <a href="file:///Users/lianliandu/Documents/GitHub/Lian939.github.io/_includes/%7B%7B"><span class="s2">{{ site.title | escape }}</span></a> {%- if titles_size &gt; 0 -%}</span></p>
+<p class="p1"><span class="s1">{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} {%- if my_page.title -%} <a href="file:///Users/lianliandu/Documents/GitHub/Lian939.github.io/_includes/%7B%7B%20my_page.url%20%7C%20relative_url%20%7D%7D"><span class="s2">{{ my_page.title | escape }}</span></a> {%- endif -%} {%- endfor -%}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{%- endif -%}<span class="Apple-converted-space"> </span></span></p>
 </body>
 </html>
