@@ -23,6 +23,7 @@ Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalenc
 </div> 
 Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
 <div>
+\\( x^2 \\)
 $$
 \begin{aligned}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
