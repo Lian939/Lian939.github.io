@@ -7,7 +7,83 @@ bibliography: assets/references/bibliography.bib
 fontsize: 12pt
 link-citations: yes
 ---
+Test
+## MathJax & LaTex
 
+Inline math $f(x)=x^2$
+
+```md
+Inline math $f(x)=x^2$
+```
+
+<hr>
+
+Long math
+
+$\max\limits_\theta L_{\theta_0}(\theta)$, subject to $D_{KL}^{\rho_{\theta_0}}(\theta_0,\theta)\le\delta$, where $D_{KL}^\rho(\theta_1,\theta_2)=\mathbb{E}\_{s\sim\rho}[D\_{KL}(\pi\_{\theta_1}(\cdot\vert s)\mid\mid\pi\_{\theta_2}(\cdot\vert s))]$
+
+```latex
+$\max\limits_\theta L_{\theta_0}(\theta)$, subject to $D_{KL}^{\rho_{\theta_0}}(\theta_0,\theta)\le\delta$, where $D_{KL}^\rho(\theta_1,\theta_2)=\mathbb{E}\_{s\sim\rho}[D\_{KL}(\pi\_{\theta_1}(\cdot\vert s)\mid\mid\pi\_{\theta_2}(\cdot\vert s))]$
+```
+
+<hr>
+
+Centered math:
+
+$$f(x)=x^2$$
+
+```md
+$$f(x)=x^2$$
+```
+
+<hr>
+
+|Symbols|Using|Latex|
+|:-:|:-:|:-:|
+|$✔$|$\color{green} ✔$|$\color{red} ✘$|
+
+```latex
+|Symbols|Using|Latex|
+|:-:|:-:|:-:|
+|$✔$|$\color{green} ✔$|$\color{red} ✘$|
+```
+
+<hr>
+
+$$\begin{multline}
+\shoveleft
+\begin{aligned}
+G_t&=R_{t+1}+\gamma R_{t+2}+\gamma^2 R_{t+3}+\gamma^3 R_{t+4}+...\\
+&=R_{t+1}+\gamma(R_{t+2}+\gamma R_{t+3}+\gamma^2 R_{t+4})+...\\
+&=R_{t+1}+\gamma G_{t+1}\\
+\end{aligned}
+\end{multline}$$
+
+```latex
+$$\begin{multline}
+\shoveleft
+\begin{aligned}
+G_t&=R_{t+1}+\gamma R_{t+2}+\gamma^2 R_{t+3}+\gamma^3 R_{t+4}+...\\
+&=R_{t+1}+\gamma(R_{t+2}+\gamma R_{t+3}+\gamma^2 R_{t+4})+...\\
+&=R_{t+1}+\gamma G_{t+1}\\
+\end{aligned}
+\end{multline}$$
+```
+
+<hr>
+
+Broken equation $61_{10}$, $111101_2$, $3D_{16}$
+
+Fixed equation $61\_{10}$, $111101\_2$, $3D\_{16}$
+
+```md
+Broken equation $61_{10}$, $111101_2$, $3D_{16}$
+
+Fixed equation $61\_{10}$, $111101\_2$, $3D\_{16}$
+```
+
+<hr>
+Test End -----
 Let patient be positive for Nonmelanoma Skin Cancer, and healthy be negative for Nonmelanoma Skin Cancer. To evaluate the performance of a test or model, various measures, such as sensitivity,  specificity, precision, recall,and area under the receiver operating characteristic curve (AUROC), are used. Classify patient or healthy produces four outcomes: 
 True positive(TP) = the number of cases correctly identified as patient
 False positive(FP) = the number of cases incorrectly identified as patient
