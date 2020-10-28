@@ -18,16 +18,10 @@ The sensitivity of a predicated model is its ability to predict the patient case
 The specificity of a test is its ability to predict the healthy cases correctly. To estimate it, we should calculate the proportion of true negative in healthy cases. Mathematically, this can be stated as: $$Specificity = \frac{TN}{TN+FP}$$
 Positive predictive value (PPV, also called precision) is the probability that subjects with a positive prediction truly have the disease. Mathematically, this can be stated as: $$Precision = \frac{TP}{TP+FP}$$ Also, if the prevalence is known, this can be state as: $$Sensitivity * Prevalence / [(Sensitivity * Prevalence) + ((1- Specificity) * (1-Prevalence))]$$
 
-Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is 
-
-$$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))]$$
-$a^2 + b^2 = c^2$
-$$a^2 + b^2 = c^2$$
-\\ce{CO2 + C -> 2 C0}
-Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
-
+Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is $$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))] \approx 0.00036$$ Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
 
 ![image](/assets/images/plot.png)
+
 <br/>
 
 From the plot, we could see the sensitivity and specificity should be greater than 0.999 ($\approx 1$), if we want to achieve positive predictive value = 50%. 
