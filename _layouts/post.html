@@ -9,11 +9,7 @@
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Courier; color: #144198; -webkit-text-stroke: #144198; background-color: #eae9ff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
     span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; color: #0e0e0e; -webkit-text-stroke: 0px #0e0e0e}
-    span.s3 {font-kerning: none; color: #144198; -webkit-text-stroke: 0px #144198}
   </style>
 </head>
 <body>
@@ -22,7 +18,5 @@
 <p class="p3"><span class="s1">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} {{ page.date | date: date_format }} {%- if page.modified_date -%} ~ {%- assign mdate = page.modified_date | date_to_xmlschema -%} {{ mdate | date: date_format }} {%- endif -%} {%- if page.author -%} â€¢ {% for author in page.author %} {{ author }} {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif -%}</span></p>
 <p class="p1"><span class="s1">{{ content }}<span class="Apple-converted-space"> </span></span></p>
 <p class="p1"><span class="s1">{%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s2">&lt;script src="<a href="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><span class="s3">https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span></a>" type="text/javascript"&gt;&lt;/script&gt;</span></p>
-<p class="p5"><span class="s1"></span><br></p>
 </body>
 </html>
