@@ -28,7 +28,7 @@ twitter_username: DuLianlian
 github_username:  Lian939
 
 # Build settings
-theme: math-minima
+theme: minima
 plugins:
   - jekyll-feed
 
