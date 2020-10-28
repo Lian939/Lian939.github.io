@@ -21,7 +21,7 @@ Positive predictive value (PPV, also called precision) is the probability that s
 Therefore, if a test has sensitivity = 80% and specificity 80% and the prevalence of the disease is 9/100,000, the PPV is 
 
 $$0.8 * 9/100000 / [(0.8 * 9/100000) + ((1- 0.8) * (1-9/100000))]$$
-
+$a^2 + b^2 = c^2$
 Suppose sensitivity = specificity, and the prevalence of the disease is 9/100,000, the figure between sensitivity/specificity and the PPV will be as follow:
 
 
