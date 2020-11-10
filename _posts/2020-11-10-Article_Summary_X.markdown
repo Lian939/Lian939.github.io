@@ -1,6 +1,7 @@
 ---
 title: Article summary X
 ---
+{% include JB/setup %}
 
 ## Summary
 [Lex et al.(2014)](https://ieeexplore.ieee.org/abstract/document/6876017) introduced a visualization technique UpSet that employed a matrix-based layout to show intersections of sets and their sizes. UpSet used two separate but interlinked views to represent the data: the set view (for set operations and cardinality tasks) and the element view (for attribute- and element-related tasks). UpSet represented the sets as matrix columns, and the row represented the intersection of different sets. Points were placed in the cells corresponding to the set involved in each intersection and were connected with a straight line. The matrix could also represent aggregates of set combinations as an expandable row, with points encoding the set involved in each set. UpSet also used bars to represent the elements in each combination and their attributes. The key features of UpSet were sorting, grouping and querying by various set‐based and attribute‐based criteria. In this paper, they distinguished UpSet with two types of set visualization techniques (element-centric techniques and set-centric techniques), also they demonstrated the utility of UpSet for real-life data analysis with two use cases from cancer biology and economics.
