@@ -16,4 +16,5 @@ This paper pointed out the similarities and differences between UpSet and other 
 
 ### References
 [1] Lex, Alexander, et al. "UpSet: visualization of intersecting sets." IEEE transactions on visualization and computer graphics 20.12 (2014): 1983-1992.
+
 [2] Alsallakh, Bilal, et al. "Visualizing sets and set-typed data: State-of-the-art and future challenges." (2014): 1-21.
