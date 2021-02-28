@@ -20,7 +20,7 @@ title                    : "Biomedical data science scholarly literature blog"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Lianlian Du"
-description              : "Critical evaluation of the scholarly literature is a crucial skill for researchers. Biomedical data science scholarly literature blog is a blog for the written article summaries and homework assignments of BMI881 literature review."
+description              : "Critical evaluation of the scholarly literature is a crucial skill for researchers. Biomedical data science scholarly literature blog is a blog for the written article summaries and homework assignments of BMI literature review."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
