@@ -23,8 +23,7 @@ Second, we add two reference lines to separate the training and test data, and m
 
 ![image](/assets/images/figure2.png)
 
-Appendix
-========
+## Appendix
 
 ``` r
 par(mfrow=c(1,1))
