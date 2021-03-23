@@ -1,0 +1,17 @@
+---
+title: Article summary VIII
+---
+
+## Summary
+[Benjamini et al.](https://www.jstor.org/stable/2346101?seq=1#metadata_info_tab_contents) suggested a new point of view on the problem of multiple hypothesis testing, which was to control the expected proportion of errors among the rejected hypotheses, termed as the false discovery rate (FDR). The results in this paper claimed that the power of FDR control was higher than Familywise Error Rate (FWER). The authors pointed out some of the difficulties with classical multiple comparison procedures (MCPs) in applied research. Then the authors defined FDR as the proportion of errors committed by falsely rejecting null hypothesis which could be translated into the term $$E(Q)=E(\frac{V}{V+S})$$. Out of true null hypothesis V were declared significant, and out of the alternative Hypothesis S were rightly identified as significant. When all the null hypothesis were true then S=0, FDR was equal to FWER, and when all hypothesis were not null, FDR was less than FWER, and then more powerful than FWER. The paper used an example of treatment procedures in myocardial infarction patients, and presented a simple Bonferroni-type FDR controlling procedure. The authors provided a comprehensive proof to claim that the algorithm would always lead to controlled FDR at $\alpha$. And in many applications this was the desirable control against errors originating from multiplicity. The authors also claimed the method was more powerful as compared to classical FWER based methods.
+
+## Reaction
+In this paper, Benjamini and colleagues provide a nice intuitive development of the multiple hypothesis testing. When conducting the multiple comparison tests with a fixed level of significance $\alpha$ for all experiments, it is straightforward to notice that the probability of getting significant result goes up. Thus, an appropriate correction procedure to control for multiple testing is necessary and important to avoid that type I error inflates massively. FDR control, introduced by Benjamini et al., is useful as it automatically take care of FWER control and also additionally more powerful. Compared with the existing Bonferroni and Holm-hochberg method, the authors report the power of the FDR controlling method is uniformly larger than that of the other methods. The findings of Benjamini and colleagues are important, however, further investigation and extension over this method should be done. From the simulation study, we see the power of all the methods decrease when the number of hypotheses tested increase. And they summarize the loss of power as hypothesis tests increase is relatively small for the FDR controlling method in the E- and I-configuration. But, there is only 64 hypotheses in this simulation study. As we know when analyzing results from genome wide studies, often thousands of hypothesis tests are conducted simultaneously. Therefore, more simulation study should be done to investigate whether the trend still holds as the number of hypothesis increases to higher levels (e.g. 1000 tests).
+
+## Questions
+1. What are the disadvantages of FDR? What is an acceptable FDR?
+2. When FWER control should be preferred to FDR control?
+3. In this paper, the authors wrote “A simple sequential Bonferroni-type procedure is proved to control the false discovery rate for independent test statistics”. What is the meaning of “independent” here?
+4. What is difference between p value and FDR adjusted p value?
+ 
+ 
