@@ -1,0 +1,18 @@
+---
+title: Article summary IX
+---
+
+## Summary
+The paper “[Genetic Signatures of Exceptional Longevity in Humans](https://pubmed.ncbi.nlm.nih.gov/22279548/)”, published in Plos One in 2012 by lead researchers Paola Sebastiani of Boston University, identified genetic variants called single-nucleotide polymorphisms, or SNPs, associated with exceptional longevity. They undertook a genome-wide association study of exceptional longevity in 801 centenarians and 914 genetically matched healthy controls and found 281 genetic markers that were 61% accurate in predicting who was 100 years old, 73% accurate in predicting who was 102 years old or older, and 85% accurate in predicting who was 105 years old or older, which showed the genetic component of exceptional longevity got greater and greater with older and older age. These 281 markers pointed to at least 130 genes, many of which had been shown to play roles in Alzheimer’s, diabetes, heart disease, cancers, high blood pressure, and basic biological mechanisms of aging. Participants in this study had genetic profiles that could be constructed from these 281 genetic markers and these, in turn, were associated with specific probabilities of achieving very old age. The authors concluded that 90% of centenarians could be grouped into clusters characterized by different “genetic signatures” of varying predictive values for exceptional longevity. The different signatures might help to dissect a complex phenotype into sub-phenotypes based on the genetic data.
+
+## Reaction
+This paper was based on work originally reported in the journal [Science in July 2010](https://pubmed.ncbi.nlm.nih.gov/20595579/). The authors voluntarily retracted the Science paper in July 2011 due to various technical concerns including technical errors in the Illumina 610 array and inadequate quality control. This paper was a revision and peer-reviewed of their findings, with additional authors who independently verified the data and methods, also another centenarian sample for replication purposes. Although this study has a retracted history, the main findings still hold in this paper after validating the genotype data using a different platform. I think there is no misconduct because the authors explain the artifact in the retraction very well and correct the errors they had in the original paper. This paper added more details about the study and was clearer than the original paper. The analysis was preliminary, based on small a sample, and needed to be replicated, but this new approach might prove useful in dissecting other complex genetic traits. In this analysis, they showed the genetic data could indeed predict exceptional longevity without knowledge of any other risk factors and specific signatures correlated with the prevalence and age of onset of some age-related diseases. Further investigation was needed to understand how and why they predispose for exceptional longevity and specific, different patterns of aging.
+
+## Questions
+1. In Figure 1, why the author includes 253 from ELIX, not 254?
+2. Is it necessary to use two replications?
+3. Compare with Figure S1 in retracted paper and Figure 2 in Plos One? Also, why does the author report the age distribution by sex separately?
+4. Why does the author plot the correlation of genetic signatures with aging subphenotypes (Fig 4) in the retracted paper, but report the correlation of genetic signatures with lifespan in Plos One (Fig 9)?
+
+ 
+ 
