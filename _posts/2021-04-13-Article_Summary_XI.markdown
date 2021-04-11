@@ -1,0 +1,16 @@
+---
+title: Article summary XI
+---
+
+## Summary
+Gene Set Enrichment Analysis (GSEA), first introduced by [mootha et al.] (https://www.nature.com/articles/ng1180), is a method to identify classes of genes or proteins that are over-represented in a large set of genes or proteins and may have an association with disease phenotypes. The authors used a preliminary version of GSEA to analyze data from muscle biopsies from diabetics vs. healthy controls. The method identified a set of genes involved in oxidative phosphorylation with reduced expression in diabetic patients. None of these genes were down-regulated by more than 20%, but as a group, their coordinate down-regulation was significant and, together with subsequent work, lead to a better understanding of the regulation of the oxidative phosphorylation pathway as many of its components turned out to be controlled by the PCG1A transcription factor, which was itself down-regulated in diabetic patients. In [Subramanian et al.] (https://www.pnas.org/content/102/43/15545) they introduced a version of GSEA that used a correlation-weighted Kolmogorov-Smirnov statistic, an improved enrichment normalization procedure, and an FDR-based estimate of significance that collectively made GSEA appreciably more sensitive, more general, and more robust. The method derived its power by focusing on gene sets. They demonstrated how GSEA yielded insights into several cancer-related data sets, including leukemia and lung cancer. Notably, where single-gene analysis found little similarity between two independent studies of patient survival in lung cancer, GSEA revealed many biological pathways in common. 
+
+## Reaction
+The refined GSEA is a sensitive, robust analytical method and tool with much broader applicability along with a large database of gene sets. The primary advantages of GSEA are that it only requires gene set membership information to compute enrichment scores, considers the entire ranked list of genes, and maintains the gene-gene dependency that reflects real biology. This yields a good compromise between sensitivity, performance, and applicability. Compared with single-gene methods, GSEA has three advantages. First, it eases the interpretation of a largescale experiment by identifying pathways and processes. Second, when the members of a gene set exhibit strong crosscorrelation, GSEA can boost the signal-to-noise ratio and make it possible to detect modest changes in individual genes. Third, the leading-edge analysis can help define gene subsets to elucidate the results. It is great to obtain more consistent results using GSEA and GSEA is better to generate compelling hypotheses for further exploration. However, there are some concerns about GSEA, for example, it is hard to compute using an empirical null distribution, and it lacks sensitivity using a non-parametric weighted statistic instead of the original Kolmogorov-Smirnov statistic.
+
+## Questions
+1. Genes may be ranked based on the differences seen in a small data set or how well their expression correlates with a given target pattern. How to rank genes for GSEA?
+2. What does a positive or negative enrichment score mean?
+3. How does GSEA preserve gene-gene correlations?
+4. Why the cut-off of FDR is 0.25? How do we choose the cut-off?
+
